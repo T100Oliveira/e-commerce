@@ -1,0 +1,166 @@
+/* Reset some default styles */@charset "UTF-8";
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #00ffff;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Masthead styles */
+.masthead {
+    background: url('your-background-image.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.masthead-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.masthead-heading {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-login input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.btn-social {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    header h1 {
+        margin-bottom: 20px;
+    }
+    nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    /* ... Previous CSS Code ... */
+
+/* ... Previous CSS Code ... */
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-login input {
+    width: 100%;
+    padding: 15px; /* Increased padding for a larger size */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px; /* Increased padding for a larger size */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* ... Remaining CSS Code ... */
+
+}
+
