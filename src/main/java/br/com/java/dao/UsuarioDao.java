@@ -11,6 +11,9 @@ import br.com.java.Usuario.Usuario;
 
 @RequestScoped
 public class UsuarioDao extends Dao<Usuario>{
+	
+	
+	
 	 @Deprecated public UsuarioDao() {super(null,null);}
 
 

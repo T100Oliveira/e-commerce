@@ -38,8 +38,12 @@ public class LoginController {
         Usuario usuario = usuarioDao.existeUsuarioCom(email, senha);
 
      if(usuario==null) {
-    	validator.add( new SimpleMessage("erro","as senhas sao invalidas")); 
+  	validator.add( new SimpleMessage("erro","as senhas sao invalidas")); 
        validator.onErrorRedirectTo(this).login();
+       
+       
+       
+       
     
      }  else {
     	   
