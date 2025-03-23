@@ -116,6 +116,7 @@ public class CadastrarController {
 				"        <form>\r\n" + 
 				"            <div class=\"form-group\">\r\n" + 
 				"                <label for=\"name\">Nome</label>\r\n" + 
+				
 				"                <input type=\"text\" id=\"name\" name=\"name\" required>\r\n" + 
 				"            </div>\r\n" + 
 				"            <div class=\"form-group\">\r\n" + 
